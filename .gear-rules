@@ -1,0 +1,3 @@
+copy: redhat/*.init
+copy: redhat/openstack-swift-functions
+tar.gz: . name=swift-@version@ base=swift-@version@
