@@ -1,2 +1,1 @@
-copy: scripts/openstack-nova-vncproxy.init
 tar.gz: . name=@name@-@version@ base=@name@-@version@
