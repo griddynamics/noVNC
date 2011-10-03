@@ -34,6 +34,8 @@ noVNC is a VNC client written  using HTML5 (Web Sockets, Canvas) with encryption
 install -d -m 755 %{buildroot}%{_sharedstatedir}/nova
 install -d -m 755 %{buildroot}%{_sharedstatedir}/nova/noVNC
 tar zxf %{SOURCE0} -C %{buildroot}%{_sharedstatedir}/nova/noVNC
+mv %{buildroot}%{_sharedstatedir}/nova/noVNC/%{name}-%{version}/* %{buildroot}%{_sharedstatedir}/nova/noVNC/
+rm -rf %{buildroot}%{_sharedstatedir}/nova/noVNC/%{name}-%{version}/
 
 
 %clean
