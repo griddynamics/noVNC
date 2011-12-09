@@ -5,6 +5,7 @@
 %endif
 
 Name:             openstack-noVNC
+Epoch:            1
 Version:	  2011.3
 Release:	  0.20110914.1.3%{?dist}
 Summary:          OpenStack Nova VNC console service 
